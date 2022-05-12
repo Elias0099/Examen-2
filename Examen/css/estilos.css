@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    background-color: rgb(17, 6, 6);
+    height: 35rem;
+    align-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.izquierda {
+    width: 30%;
+    background-color: rgb(131, 60, 247);
+    display: flex;
+    flex-direction: column;
+}
+
+.derecha {
+    width: 70%;
+    background-color: rgb(74, 90, 230);
+}
+
+.cajaI {
+    color: rgb(106, 213, 255);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+    height: 50rem;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+}
+
+#nombre {
+    width: 50%;
+    height: 2rem;
+    border: solid white 1px;
+    text-align: center;
+}
+
+#guardar {
+    border: solid rgb(0, 0, 0) 5px;
+    margin-top: 1rem;
+    width: 30%;
+    height: 2rem;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+#guardar:hover {
+    background-color: rgb(131, 242, 90);
+}
+
+#table {
+    font-family: 'Akshar', sans-serif;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+th {
+    background-color: rgb(61, 81, 38);
+    padding: 10px;
+    width: 7rem;
+}
+
+td {
+    color: rgb(1, 8, 14);
+    text-align: center;
+}
